@@ -11,3 +11,7 @@ jobs:
       - name: Echo the message
         run: |
           echo "hola mundo"
+      - name: Echo pruebas
+        run: |
+          echo "hello word"
+      - run: ls -ls
